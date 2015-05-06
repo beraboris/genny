@@ -1,7 +1,7 @@
 Genny
 =====
 
-An all purpose generator.
+A general purpose generator.
 
 Warning
 -------
