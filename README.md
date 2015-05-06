@@ -1,6 +1,8 @@
 Genny
 =====
 
+[![Build Status](https://travis-ci.org/beraboris/genny.svg)](https://travis-ci.org/beraboris/genny)
+
 A general purpose generator.
 
 Warning
