@@ -18,7 +18,7 @@ describe 'genny new' do
     expect(root + 'dir').to exist
     expect(root + 'dir').to be_directory
     expect(root + 'dir/stuff.conf').to exist
-    expect((root + 'some-file.conf').read).to eq 'something else'
+    expect((root + 'dir/stuff.conf').read).to eq 'something else'
   end
 
   it 'should complain when files are missing'
