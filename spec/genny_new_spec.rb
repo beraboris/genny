@@ -5,9 +5,9 @@ describe 'genny new' do
   include FakeFS::SpecHelpers
 
   it 'should copy files over' do
-    make_template 'foobar',
+    make_template('foobar',
                   'some-file.conf': 'something',
-                  'dir/stuff.conf': 'something else'
+                  'dir/stuff.conf': 'something else')
 
     root = Pathname.new '/dest/stuff'
     run_genny 'new', 'foobar', root
